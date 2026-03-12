@@ -1,4 +1,4 @@
-#Lista de elementos que se rompen al reducir la pantalla
+# Lista de elementos que se rompen al reducir la pantalla
 
 1. El body al tener min-width:1200px aparece scroll horizontal.
 
