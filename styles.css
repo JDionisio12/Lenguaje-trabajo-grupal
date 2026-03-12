@@ -140,3 +140,93 @@ footer {
    MEDIA QUERIES
    Añade a partir de aquí tus reglas @media para "rescatar" la web.
    ========================================================================== */
+
+/*
+=====
+MÓVIL
+=====
+*/
+@media (max-width: 768px){
+    body{
+        min-width: auto;
+    }
+
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .main-nav ul{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    main,aside{
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .responsive-img{
+        width: 100%;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-col{
+        width: 100%;
+        border-right: none;
+        margin-top: 20px;
+    }
+}
+/*
+======
+TABLET
+======
+*/
+@media (max-width: 1024px){
+    body{
+        min-height: auto;
+    }
+    
+    main{
+        width: 65%;
+        margin-left: 20px;
+    }
+    aside{
+        width: 30%;
+        float: right;
+        margin: 20px;
+    }
+
+    .responsive-img{
+        width: 100%;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+/*
+==========
+ESCRITORIO
+==========
+*/
+@media (min-width: 1024){
+    body{
+        min-width: auto;
+    }
+
+    footer{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
