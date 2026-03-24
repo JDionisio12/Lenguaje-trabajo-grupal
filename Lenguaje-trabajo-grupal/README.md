@@ -5,7 +5,7 @@ Bienvenidos al repositorio de nuestro proyecto web. Este sitio ha sido desarroll
 
 ## 🚀 Demo en Vivo
 Puedes ver la página funcionando aquí:
-👉 [https://jdionisio12.github.io/Lenguaje-trabajo-grupal/](https://jdionisio12.github.io/Lenguaje-trabajo-grupal/)
+👉 [https://jdionisio12.github.io/Lenguaje-trabajo-grupal/](https://jdionisio12.github.io/Lenguaje-trabajo-grupal/Lenguaje-trabajo-grupal/index.html)
 
 ---
 
