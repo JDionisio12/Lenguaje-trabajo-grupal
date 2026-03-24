@@ -18,11 +18,13 @@ Puedes ver la página funcionando aquí:
 ## 📂 Estructura del Proyecto
 * `index.html`: Archivo principal de la página.
 * `styles.css`: Hoja de estilos con todo el diseño visual.
-* `assets/`: Carpeta (opcional) para imágenes y recursos.
+
 
 ## 👥 Autores
 * **JDionisio12** - *Desarrollo inicial y Maquetación*
-* (Puedes añadir aquí los nombres de tus compañeros)
+* **MarcTray** - *Desarrollo de css*
+* **DarioLoja** - *Desarrollo de html5*
+* **MohaElGrande** -*Nada*
 
 ---
 *Este proyecto fue creado con fines educativos para la práctica de maquetación web funcional.*
