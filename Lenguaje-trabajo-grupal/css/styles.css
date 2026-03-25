@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap');
 /* ==========================================================================
    ESTILOS BASE (NO TOCAR DIRECTAMENTE) 
    ¡Crea una zona de Media Queries!
@@ -137,11 +138,48 @@ footer {
 }
 
 /* ==========================================================================
+   CAMBIAR TEMÁTICA AL ARCHIVO (CYBERPUNK)
+   ========================================================================== */
+body {
+    background-image: url(../img/fondo_oscuro.jpg);
+    font-family: "Datatype",serif;
+}
+header{
+    background-image: url(../img/imagenFuturo.jpeg);
+}
+main{
+    background-image: url(../img/fondo_metalico.jpg);
+    background-size: cover;
+}
+img,button{
+    border-radius: 90px;
+}
+h1::before {
+    content: "🤖 ";
+}
+h2::before {
+    content: "👾 ";
+}
+aside{
+    background-image: url(../img/fondo_chips.jpg);
+    background-size: cover;
+}
+.anuncio{
+    background-image: url(../img/fondo_oscuro.jpg);
+    background-size: cover;
+    color: white;
+}
+footer{
+    background-image: url(../img/imagenFuturo.jpeg);
+    
+}
+
+/* ==========================================================================
    MEDIA QUERIES
    Añade a partir de aquí tus reglas @media para "rescatar" la web.
    ========================================================================== */
-
 /*
+
 =====
 MÓVIL
 =====
